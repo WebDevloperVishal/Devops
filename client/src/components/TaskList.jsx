@@ -6,12 +6,7 @@ const TaskList = ({ tasks, onDeleteTask }) => {
       <div className="text-center py-12">
         <div className="bg-white rounded-lg shadow-sm border p-8 max-w-md mx-auto">
           <div className="text-gray-400 mb-4">
-            <svg
-              className="w-16 h-16 mx-auto"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
+            <svg className="w-16 h-16 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -21,7 +16,7 @@ const TaskList = ({ tasks, onDeleteTask }) => {
             </svg>
           </div>
           <h3 className="text-lg font-medium text-gray-900 mb-2">No tasks yet</h3>
-          <p className="text-gray-600">Get started by creating your first task!</p>
+          <p className="text-gray-560">Get started by creating your first task!</p>
         </div>
       </div>
     );
